@@ -1,0 +1,5 @@
+INFO:     Started server process [11568]
+INFO:     Waiting for application startup.
+Using the insecure development SECRET_KEY. Set SECRET_KEY in .env for any real deployment.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8020 (Press CTRL+C to quit)

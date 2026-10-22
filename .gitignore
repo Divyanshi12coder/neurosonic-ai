@@ -1,0 +1,28 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# node
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# runtime data
+data/*.db
+data/generated/
+data/uploads/
+
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

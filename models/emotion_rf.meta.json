@@ -1,0 +1,66 @@
+{
+  "name": "random-forest-baseline",
+  "data_source": "synthetic",
+  "n_train": 1120,
+  "n_test": 280,
+  "feature_names": [
+    "rel_delta",
+    "rel_theta",
+    "rel_alpha",
+    "rel_beta",
+    "rel_gamma",
+    "theta_beta_ratio",
+    "alpha_beta_ratio",
+    "engagement_index",
+    "frontal_alpha_asymmetry",
+    "spectral_entropy",
+    "dominant_frequency",
+    "hjorth_mobility",
+    "hjorth_complexity"
+  ],
+  "feature_means": [
+    0.18035797571428597,
+    0.15251045071428593,
+    0.4967425078571426,
+    0.16315300928571402,
+    0.007236074285714292,
+    2.12326792142857,
+    8.458022826428598,
+    0.32064983142857134,
+    -0.014951852857142851,
+    0.724889739285715,
+    11.052857142857142,
+    0.2743419128571431,
+    1.6455186728571412
+  ],
+  "feature_stds": [
+    0.06173333351355712,
+    0.035653938763296186,
+    0.13885832284003202,
+    0.13414381326303065,
+    0.00526903617884538,
+    2.0779080672286123,
+    10.010527639042467,
+    0.35324564696724076,
+    0.8335023497473033,
+    0.05451007437378661,
+    2.8797431159606512,
+    0.048889141289692774,
+    0.11883805692279822
+  ],
+  "held_out_r2": {
+    "valence": 0.707,
+    "arousal": 0.956,
+    "calmness": 0.929,
+    "focus": 0.404,
+    "stress": 0.763
+  },
+  "held_out_mae": {
+    "valence": 0.127,
+    "arousal": 0.05,
+    "calmness": 0.057,
+    "focus": 0.184,
+    "stress": 0.095
+  },
+  "evaluation_note": "Held-out split of the SAME data distribution. For synthetic data this only shows the model can invert the simulator; it is NOT evidence of real-world EEG emotion accuracy."
+}

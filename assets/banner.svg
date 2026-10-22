@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" role="img" aria-label="NeuroSonic AI - Brainwave, Emotion, Music">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2B1B16"/><stop offset="0.6" stop-color="#3A2520"/><stop offset="1" stop-color="#4A3028"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#CBB9AC" stop-opacity="0.15"/><stop offset="0.5" stop-color="#E9DED6" stop-opacity="0.9"/><stop offset="1" stop-color="#FAF8F6"/></linearGradient>
+  </defs>
+  <rect width="1280" height="380" fill="url(#bg)"/>
+  <g fill="none" stroke="#80665A" stroke-opacity="0.25" stroke-width="1">
+    <path d="M0 300 H1280M0 250 H1280M0 200 H1280M0 150 H1280M0 100 H1280"/>
+  </g>
+  <!-- EEG trace morphing into sound bars -->
+  <path d="M60 190 q18 -60 36 0 t36 0 t26 40 t24 -90 t22 120 t26 -110 t24 80 t30 -50 t34 20 t40 -8 t60 4" fill="none" stroke="url(#fade)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#E9DED6">
+    <rect x="590" y="165" width="8" height="50" rx="4" opacity="0.5"/><rect x="610" y="145" width="8" height="90" rx="4" opacity="0.65"/>
+    <rect x="630" y="120" width="8" height="140" rx="4" opacity="0.8"/><rect x="650" y="150" width="8" height="80" rx="4" opacity="0.9"/>
+    <rect x="670" y="105" width="8" height="170" rx="4"/><rect x="690" y="140" width="8" height="100" rx="4" opacity="0.9"/>
+    <rect x="710" y="160" width="8" height="60" rx="4" opacity="0.75"/><rect x="730" y="130" width="8" height="120" rx="4" opacity="0.6"/>
+    <rect x="750" y="170" width="8" height="40" rx="4" opacity="0.45"/>
+  </g>
+  <text x="800" y="175" font-family="Georgia, 'Times New Roman', serif" font-size="68" fill="#FAF8F6" letter-spacing="1">NeuroSonic</text>
+  <text x="1107" y="175" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-style="italic" fill="#CBB9AC">AI</text>
+  <text x="802" y="220" font-family="'Courier New', monospace" font-size="19" fill="#CBB9AC" letter-spacing="4">BRAINWAVE → EMOTION → MUSIC</text>
+  <text x="802" y="262" font-family="Georgia, serif" font-size="17" fill="#E9DED6" opacity="0.8">Listen to what your mind is feeling.</text>
+</svg>

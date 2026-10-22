@@ -1,0 +1,10 @@
+
+> neurosonic-frontend@1.0.0 dev
+> vite --port 5180 --strictPort
+
+
+  VITE v5.4.21  ready in 407 ms
+
+  ➜  Local:   http://localhost:5180/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
