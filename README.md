@@ -24,7 +24,7 @@
 
 > **Disclaimer.** This project is an experimental AI research/product prototype. EEG-derived emotional states are estimates and should not be interpreted as medical diagnoses or clinical assessments. See [Limitations](#limitations) and [Ethical considerations](#ethical-considerations).
 
----
+--- 
 
 ## Overview
 
